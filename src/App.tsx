@@ -1,9 +1,10 @@
 import React from 'react';
+import AppRoutes from './routes';
 
 function App() {
   return (
-    <div className=" bg-red-400 min-h-[100vh] ">
-      APP
+    <div className=" min-h-[100vh] ">
+      <AppRoutes />
     </div>
   );
 }

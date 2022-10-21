@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Index: React.FC = () => {
+function Home() {
   return (
     <div>
-
+        Loading
     </div>
   )
 }
 
-export default Index;
+export default Home;
