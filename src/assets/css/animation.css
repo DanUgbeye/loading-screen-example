@@ -1,0 +1,92 @@
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 100%;
+  }
+
+  50% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes shake {
+  0% {
+    rotate: 0deg;
+  }
+
+  10% {
+    rotate: 10deg;
+  }
+
+  40% {
+    rotate: -10deg;
+  }
+
+  60% {
+    rotate: 10deg;
+  }
+
+  80% {
+    rotate: -10deg;
+  }
+
+  99% {
+    rotate: 10deg;
+  }
+
+  100% {
+    rotate: 0deg;
+  }
+
+}
+
+@keyframes bounce-in {
+  0% {
+    scale: .4;
+  }
+
+  75% {
+    scale: 1.2;
+  }
+
+  80% {
+    scale: .9;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  0% {
+    translate: -100%;
+  }
+
+  100% {
+    translate: 0;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    translate: 100%;
+  }
+
+  100% {
+    translate: 0;
+  }
+}
