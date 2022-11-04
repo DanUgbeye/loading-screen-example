@@ -1,0 +1,27 @@
+@import "./animation.css";
+
+.spin {
+  animation: spin 1s infinite linear;
+}
+
+.fade {
+  animation: fade 1.5s infinite linear
+}
+
+.shake {
+  animation: shake .2s linear .1s 2;
+}
+
+.bounce-in {
+  animation: bounce-in .3s linear  ;
+}
+
+@media (max-width: 833px) {
+  .slide-in-left {
+    animation: slide-in-left .4s linear;
+  }
+  
+  .slide-in-right {
+    animation: slide-in-right .4s linear;
+  }
+}
